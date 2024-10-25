@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+
+
+
+h1 {
+    position: relative;
+    line-height: 1.4;
+    padding:0.25em 1em;
+    display: inline-block;
+    top:0;
+  }
+  
+  h1:before, h1:after { 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 8px;
+    height: 100%;
+    display: inline-block;
+  }
+  
+  h1:before {
+    border-top: dotted 1px #535aaa;
+    border-left: dotted 1px #535aaa;
+    border-bottom: dotted 1px #535aaa;
+    left: 0;
+  }
+  
+  h1:after {
+    content: '';
+    border-top: dotted 1px #535aaa;
+    border-right: dotted 1px #535aaa;
+    border-bottom: dotted 1px #535aaa;
+    right: 0;
+  }
+   
+
+h2 {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 1em;
+      }
+      h2:before {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        display: inline-block;
+        width: 60px;
+        height: 5px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        background-color: black;
+        border-radius: 2px;
+      }
+
+    nav{
+      text-align: center;
+      }
+      nav ul{
+      margin: 0 ;
+      padding: 0 ;
+      }
+      nav li{
+      list-style: none;
+      display: inline-block;
+      width: 10%;
+      min-width: 90px;
+      }
+      nav li:not(:last-child){
+      border-right:2px solid #ddd;
+      }
+      nav a{
+      text-decoration: none;
+      color: #333;
+      }
+      nav a.current{
+      color: #00B0F0;
+      border-bottom:2px solid #00B0F0;
+      }
+      nav a:hover{
+      color:#F7CB4D;
+      border-bottom:2px solid #F7CB4D;
+      }
+      
+      
+  
+      
+  
+  .gallery {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .img-item {
+    opacity: 0;
+    filter: blur(10px);
+    width: 100%;
+  }
+  
+  .img-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-item p {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: #EEE;
+  }
+  .sns-btn {
+    display: flex;
+margin-top: 20px;
+  }
+
+  .sns-btn img {
+    text-align: center;
+    justify-content: center;
+    width: 30px;
+    height: auto;
+  }
+  
+  .zen-maru-gothic-regular {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+  }  

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+
+
+h1 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+h1:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+
+
+h2 {
+    position: relative;
+    color: #333;
+    text-shadow: 0 0 2px white;
+  }
+  h2:before {
+    content: "";
+    position: absolute;
+    background: #9de5ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    /* border: dashed 1px white; */
+    left: -15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+
+    h3 {
+      background: #c2edff;
+      padding: 0.5em;
+    }
+
+    h4 {
+      border-bottom: solid 3px black;
+    }
+
+    nav{
+      text-align: center;
+      }
+      nav ul{
+      margin: 0 ;
+      padding: 0 ;
+      }
+      nav li{
+      list-style: none;
+      display: inline-block;
+      width: 10%;
+      min-width: 90px;
+      }
+      nav li:not(:last-child){
+      border-right:2px solid #ddd;
+      }
+      nav a{
+      text-decoration: none;
+      color: #333;
+      }
+      nav a.current{
+      color: #00B0F0;
+      border-bottom:2px solid #00B0F0;
+      }
+      nav a:hover{
+      color:#F7CB4D;
+      border-bottom:2px solid #F7CB4D;
+      }
+      
+      
+  
+      
+  
+  .gallery {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .img-item {
+    opacity: 0;
+    filter: blur(10px);
+    width: 100%;
+  }
+  
+  .img-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-item p {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: #EEE;
+  }
+  .sns-btn {
+    display: flex;
+margin-top: 20px;
+  }
+
+  .sns-btn img {
+    justify-content: center;
+    width: 30px;
+    height: auto;
+  }
+  
+  .zen-maru-gothic-regular {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+  }  
