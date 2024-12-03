@@ -24,13 +24,13 @@ h1 {
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        background-color: rgb(244, 255, 30);
+        background-color: rgb(255, 206, 30);
         border-radius: 2px;
       }
       .heading-21 {
     position: relative;
     padding: .5em .7em .4em;
-    border-bottom: 3px solid #f4ff1e;
+    border-bottom: 3px solid #ffd21e;
     color: #333333;
 }
 
@@ -46,7 +46,7 @@ h1 {
 }
 
 .heading-21::before {
-    background-color: #f4ff1e;
+    background-color: #ffd21e;
 }
 
 .heading-21::after {
@@ -58,7 +58,7 @@ h1 {
         .heading-21 {
             position: relative;
             padding: .5em .7em .4em;
-            border-bottom: 3px solid #f4ff1e;
+            border-bottom: 3px solid #ffd21e;
             color: #333333;
         }
         
@@ -74,7 +74,7 @@ h1 {
         }
         
         .heading-21::before {
-            background-color: #f4ff1e;
+            background-color: #ffd21e;
         }
         
         .heading-21::after {
