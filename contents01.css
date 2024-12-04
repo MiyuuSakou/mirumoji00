@@ -7,6 +7,52 @@ body {
     font-family: "Zen Maru Gothic", serif;
   } 
 
+  main {
+    grid-template-columns: 1fr;
+  }
+  .sec01 {
+}
+.sec02 {
+}
+.sec03 {
+}
+
+.container {
+    grid-template-columns: 1fr;
+}  
+
+@media all and (min-width: 1025px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .sec01 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+  
+    .sec02 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+  
+    .sec03 {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  
+    .container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+
 
 
 h1 {
@@ -84,39 +130,6 @@ h1 {
         
       }
 
-    nav{
-      text-align: center;
-      }
-      nav ul{
-      margin: 0 ;
-      padding: 0 ;
-      }
-      nav li{
-      list-style: none;
-      display: inline-block;
-      width: 10%;
-      min-width: 90px;
-      }
-      nav li:not(:last-child){
-      border-right:2px solid #ddd;
-      }
-      nav a{
-      text-decoration: none;
-      color: #333;
-      }
-      nav a.current{
-      color: #00B0F0;
-      border-bottom:2px solid #00B0F0;
-      }
-      nav a:hover{
-      color:#F7CB4D;
-      border-bottom:2px solid #F7CB4D;
-      }
-      
-      
-  
-      
-  
   .gallery {
     display: grid;
     max-width: 1000px;
