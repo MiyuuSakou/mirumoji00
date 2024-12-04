@@ -3,56 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+
 body {
     font-family: "Zen Maru Gothic", serif;
   } 
-
-  main {
-    grid-template-columns: 1fr;
-  }
-  .sec01 {
-}
-.sec02 {
-}
-.sec03 {
-}
-
-.container {
-    grid-template-columns: 1fr;
-}  
-
-@media all and (min-width: 1025px) {
-    main {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .sec01 {
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 1;
-      grid-column-end: 2;
-    }
-  
-    .sec02 {
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 2;
-      grid-column-end: 3;
-    }
-  
-    .sec03 {
-      grid-row-start: 2;
-      grid-row-end: 3;
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
-  
-    .container {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-
-
 
 
 h1 {
@@ -145,7 +104,7 @@ h1 {
   }
   
   .img-item img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   
