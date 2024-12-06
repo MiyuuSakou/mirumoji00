@@ -110,6 +110,11 @@ h1 {
   .img-item p {
     text-align: center;
   }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
   
   footer {
     text-align: center;

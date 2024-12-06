@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 
 body {
     font-family: "Zen Maru Gothic", serif;
@@ -103,6 +102,11 @@ h1 {
     width: 100%;
     height: auto;
   }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
   
   .img-item p {
     text-align: center;
@@ -128,3 +132,9 @@ margin-top: 20px;
   }
   
  
+
+
+
+
+
+
