@@ -25,7 +25,7 @@ h1 {
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         background-color: rgb(30, 34, 255);
-        border-radius: 2px;
+        border-radius: 0px;
       }
       .heading-21 {
     position: relative;
